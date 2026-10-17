@@ -18,13 +18,16 @@ The server is hosted by WindRose — there is nothing to install for Claude.ai, 
 - A WindRose account on the **Pro** plan (read-only tools) or **Business** (all tools, including creating and deleting alerts and monitoring windows).
 - Server URL: `https://app.windroses.world/api/mcp.php` (MCP Streamable HTTP).
 
-## Claude.ai and Claude Desktop — custom connector (recommended)
+## Claude.ai and Claude Desktop — from the connector directory (recommended)
 
-1. Open **Settings → Connectors → Add custom connector**.
-2. Name: `WindRose`. URL: `https://app.windroses.world/api/mcp.php`.
-3. Click **Connect**: a WindRose page asks you to sign in and to allow access. That's it.
+WindRose is listed in Claude's connector directory: **https://claude.ai/directory/connectors/windrose**
+
+1. In Claude open **Settings → Connectors** (or **Browse connectors**), search for **WindRose** and click **Connect**.
+2. A WindRose page asks you to sign in and to allow access. That's it.
 
 Sign-in uses OAuth 2.1 (PKCE, dynamic client registration). You can disconnect at any time from Claude, or from **WindRose → Settings → API & MCP access → Connected AI apps**.
+
+Prefer adding it by hand? **Settings → Connectors → Add custom connector** with the URL `https://app.windroses.world/api/mcp.php` works the same way.
 
 ## Claude Code
 
@@ -119,7 +122,7 @@ The server also exposes **resources** (`windrose://docs/conventions`, `windrose:
 
 ## Italiano
 
-Collega Claude a WindRose: in Claude.ai/Desktop vai su **Impostazioni → Connettori → Aggiungi connettore personalizzato**, URL `https://app.windroses.world/api/mcp.php`, poi accedi con il tuo account WindRose. Serve il piano Pro (sola lettura) o Business (anche allerte e monitoraggi). In Claude Code: `claude mcp add --transport http windrose https://app.windroses.world/api/mcp.php` e poi `/mcp`.
+Collega Claude a WindRose: in Claude.ai/Desktop apri **Impostazioni → Connettori**, cerca **WindRose** nella directory (https://claude.ai/directory/connectors/windrose) e premi **Connetti**, poi accedi con il tuo account WindRose. Serve il piano Pro (sola lettura) o Business (anche allerte e monitoraggi). In Claude Code: `claude mcp add --transport http windrose https://app.windroses.world/api/mcp.php` e poi `/mcp`.
 
 ## License
 
