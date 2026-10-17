@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "windrose": {
+      "command": "npx",
+      "args": ["-y", "github:gabriele-wink/windrose-mcp-claude"],
+      "env": {
+        "WINDROSE_API_KEY": "wr_xxxxxxxxxxxxxxxx.your_key_secret_here"
+      }
+    }
+  }
+}

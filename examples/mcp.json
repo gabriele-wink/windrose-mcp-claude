@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "windrose": {
+      "type": "http",
+      "url": "https://app.windroses.world/api/mcp.php",
+      "headers": {
+        "Authorization": "Bearer ${WINDROSE_API_KEY}"
+      }
+    }
+  }
+}

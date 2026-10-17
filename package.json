@@ -1,0 +1,12 @@
+{
+  "name": "windrose-mcp-bridge",
+  "version": "1.0.0",
+  "description": "Connect Claude (and any stdio MCP client) to the WindRose weather network MCP server",
+  "bin": { "windrose-mcp-bridge": "bin/windrose-mcp-bridge.js" },
+  "files": ["bin/"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/gabriele-wink/windrose-mcp-claude.git" },
+  "homepage": "https://github.com/gabriele-wink/windrose-mcp-claude#readme",
+  "keywords": ["mcp", "model-context-protocol", "claude", "weather", "weather-station", "windrose"]
+}
