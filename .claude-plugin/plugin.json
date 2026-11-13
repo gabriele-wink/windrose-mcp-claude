@@ -1,7 +1,7 @@
 {
   "name": "windrose",
-  "version": "1.0.1",
-  "description": "Ask Claude about the weather stations you own, whatever the brand: Davis, Ecowitt, Tempest, Netatmo, Ambient, AcuRite, METER, HOBO, METOS and more. Live readings, history, records, alerts and your hardware's manuals.",
+  "version": "1.0.2",
+  "description": "Ask Claude about your weather stations, whatever the brand (Davis, Ecowitt, Tempest, Netatmo, Ambient, AcuRite, METER, HOBO, METOS and more), and query every public station of the WindRose community. Live readings, history, records, alerts and manuals.",
   "author": {
     "name": "WindRose",
     "url": "https://windroses.world"

@@ -1,6 +1,6 @@
 # WindRose MCP for Claude
 
-Connect **Claude** to [WindRose](https://windroses.world) and ask about **the weather stations you own**, whatever the brand: Davis WeatherLink, Ecowitt, Ambient Weather, WeatherFlow Tempest, Netatmo, AcuRite, METER ZENTRA, HOBO (LI-COR), METOS FieldClimate, Meteobridge, Barani MeteoHelix and Campbell Scientific. WindRose keeps them in one account; Claude reads their live readings, full history, daily summaries, records and monthly normals, answers hardware questions from the official manuals, and on Business manages your alerts. The public WindRose network is there too, to compare your station with the ones around it.
+Connect **Claude** to [WindRose](https://windroses.world) and ask about **the weather stations you own**, whatever the brand: Davis WeatherLink, Ecowitt, Ambient Weather, WeatherFlow Tempest, Netatmo, AcuRite, METER ZENTRA, HOBO (LI-COR), METOS FieldClimate, Meteobridge, Barani MeteoHelix and Campbell Scientific. WindRose keeps them in one account; Claude reads their live readings, full history, daily summaries, records and monthly normals, answers hardware questions from the official manuals, and on Business manages your alerts. And it can query every public station of the WindRose community, whatever the brand: compare your station with its neighbours, find where it is raining right now, or study rain, frost and heat across a whole region.
 
 Ask things like:
 
@@ -10,6 +10,8 @@ Ask things like:
 - *How do I calibrate the rain collector on my Vantage Vue?*
 - *Alert me when the gust at my station goes above 60 km/h.* (Business)
 - *Compare my station with the nearest three this week.*
+- *Where is it raining right now across the community stations of northern Italy?*
+- *Rank the community stations of Lombardy by rain in October.*
 
 The server is hosted by WindRose — there is nothing to install for Claude.ai, Claude Desktop or Claude Code. This repo holds the setup guide, example configs and a tiny optional stdio bridge.
 

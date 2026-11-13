@@ -9,7 +9,7 @@
     {
       "name": "windrose",
       "source": "./",
-      "description": "Your own weather stations in Claude, from Davis, Ecowitt, Tempest, Netatmo and many more brands."
+      "description": "Your weather stations and every public WindRose community station in Claude, from Davis, Ecowitt, Tempest, Netatmo and many more brands."
     }
   ]
 }
