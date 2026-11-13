@@ -9,7 +9,7 @@
     {
       "name": "windrose",
       "source": "./",
-      "description": "WindRose weather network MCP server for Claude: live and historic data from real personal weather stations."
+      "description": "Your own weather stations in Claude, from Davis, Ecowitt, Tempest, Netatmo and many more brands."
     }
   ]
 }
