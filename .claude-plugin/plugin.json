@@ -1,0 +1,21 @@
+{
+  "name": "windrose",
+  "version": "1.0.0",
+  "description": "Ask Claude about real personal weather stations: the public WindRose network and your own (Davis, Ecowitt, Tempest, Netatmo and more), plus forecasts, ERA5 climate, heat-stress indices and dispersion.",
+  "author": {
+    "name": "WindRose",
+    "url": "https://windroses.world"
+  },
+  "homepage": "https://windroses.world/connectors/",
+  "repository": "https://github.com/gabriele-wink/windrose-mcp-claude",
+  "license": "MIT",
+  "keywords": [
+    "weather",
+    "weather-station",
+    "climate",
+    "agriculture",
+    "mcp"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://app.windroses.world/privacy.html"
+}

@@ -31,7 +31,15 @@ Prefer adding it by hand? **Settings → Connectors → Add custom connector** w
 
 ## Claude Code
 
-With sign-in (OAuth):
+As a plugin (this repo is a plugin marketplace):
+
+```bash
+/plugin marketplace add gabriele-wink/windrose-mcp-claude
+/plugin install windrose@windrose
+# then run /mcp and choose "Authenticate"
+```
+
+Or add the server directly, with sign-in (OAuth):
 
 ```bash
 claude mcp add --transport http windrose https://app.windroses.world/api/mcp.php

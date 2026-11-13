@@ -1,0 +1,15 @@
+{
+  "name": "windrose",
+  "description": "The WindRose weather network for Claude.",
+  "owner": {
+    "name": "WindRose",
+    "url": "https://windroses.world"
+  },
+  "plugins": [
+    {
+      "name": "windrose",
+      "source": "./",
+      "description": "WindRose weather network MCP server for Claude: live and historic data from real personal weather stations."
+    }
+  ]
+}
